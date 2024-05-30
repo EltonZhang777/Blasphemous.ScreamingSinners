@@ -1,0 +1,1 @@
+namespace Blasphemous.ScreamingSinners { internal static class ModInfo { public const string MOD_ID = "Blasphemous.ScreamingSinners"; public const string MOD_NAME = "Screaming Sinners"; public const string MOD_AUTHOR = "NewbieElton"; public const string MOD_VERSION = "0.1.0"; } }

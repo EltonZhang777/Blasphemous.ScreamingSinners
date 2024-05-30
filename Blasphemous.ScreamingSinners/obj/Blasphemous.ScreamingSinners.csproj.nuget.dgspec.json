@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\28090\\Documents\\GitHub\\Blasphemous.ScreamingSinners\\Blasphemous.ScreamingSinners\\Blasphemous.ScreamingSinners.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\28090\\Documents\\GitHub\\Blasphemous.ScreamingSinners\\Blasphemous.ScreamingSinners\\Blasphemous.ScreamingSinners.csproj": {
+      "version": "0.1.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\28090\\Documents\\GitHub\\Blasphemous.ScreamingSinners\\Blasphemous.ScreamingSinners\\Blasphemous.ScreamingSinners.csproj",
+        "projectName": "Blasphemous.ScreamingSinners",
+        "projectPath": "C:\\Users\\28090\\Documents\\GitHub\\Blasphemous.ScreamingSinners\\Blasphemous.ScreamingSinners\\Blasphemous.ScreamingSinners.csproj",
+        "packagesPath": "C:\\Users\\28090\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\28090\\Documents\\GitHub\\Blasphemous.ScreamingSinners\\Blasphemous.ScreamingSinners\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\28090\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net35"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net35": {
+            "targetAlias": "net35",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net35": {
+          "targetAlias": "net35",
+          "dependencies": {
+            "Blasphemous.Framework.Items": {
+              "target": "Package",
+              "version": "[0.1.0, )"
+            },
+            "Blasphemous.Framework.Menus": {
+              "target": "Package",
+              "version": "[0.2.0, )"
+            },
+            "Blasphemous.ModdingAPI": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Blasphemous.ModdingReferences": {
+              "target": "Package",
+              "version": "[4.0.67, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
