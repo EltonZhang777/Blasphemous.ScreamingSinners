@@ -1,14 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "G8BsWS0LDUGE6/ttt9FQRNkJETOTwiN8cMpDbq/0PktkGndY7ZjhCr4tZOPQbQjSp8vZr26NqaMLebYmd+mgGQ==",
+  "dgSpecHash": "HliDRYeLFe2aqEYQ5uOEmZ/G+u6PQvhuS7AfbuYkgeYpg/ihtZ4QZgXcqMOeioFGkmVYWc4db5T0BRRTbVua8Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\28090\\Documents\\GitHub\\Blasphemous.ScreamingSinners\\Blasphemous.ScreamingSinners\\Blasphemous.ScreamingSinners.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\28090\\.nuget\\packages\\bepinex.baselib\\5.4.20\\bepinex.baselib.5.4.20.nupkg.sha512",
     "C:\\Users\\28090\\.nuget\\packages\\bepinex.core\\5.4.21\\bepinex.core.5.4.21.nupkg.sha512",
     "C:\\Users\\28090\\.nuget\\packages\\blasphemous.framework.items\\0.1.0\\blasphemous.framework.items.0.1.0.nupkg.sha512",
-    "C:\\Users\\28090\\.nuget\\packages\\blasphemous.framework.menus\\0.2.0\\blasphemous.framework.menus.0.2.0.nupkg.sha512",
-    "C:\\Users\\28090\\.nuget\\packages\\blasphemous.framework.ui\\0.1.1\\blasphemous.framework.ui.0.1.1.nupkg.sha512",
+    "C:\\Users\\28090\\.nuget\\packages\\blasphemous.framework.levels\\0.1.2\\blasphemous.framework.levels.0.1.2.nupkg.sha512",
     "C:\\Users\\28090\\.nuget\\packages\\blasphemous.moddingapi\\2.1.2\\blasphemous.moddingapi.2.1.2.nupkg.sha512",
     "C:\\Users\\28090\\.nuget\\packages\\blasphemous.moddingreferences\\4.0.67\\blasphemous.moddingreferences.4.0.67.nupkg.sha512",
     "C:\\Users\\28090\\.nuget\\packages\\harmonyx\\2.7.0\\harmonyx.2.7.0.nupkg.sha512",

@@ -1,0 +1,12 @@
+{
+    "additions": [
+        {
+            "type": "spikes",
+            "id": "spike_001",
+            "position": {
+                "x": -980.5,
+                "y": 17.5
+            }
+        }
+    ]
+}

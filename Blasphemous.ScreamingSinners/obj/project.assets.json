@@ -44,37 +44,19 @@
           }
         }
       },
-      "Blasphemous.Framework.Menus/0.2.0": {
-        "type": "package",
-        "dependencies": {
-          "Blasphemous.Framework.UI": "0.1.1",
-          "Blasphemous.ModdingAPI": "2.1.1",
-          "Blasphemous.ModdingReferences": "4.0.67"
-        },
-        "compile": {
-          "lib/net35/MenuFramework.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net35/MenuFramework.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Blasphemous.Framework.UI/0.1.1": {
+      "Blasphemous.Framework.Levels/0.1.2": {
         "type": "package",
         "dependencies": {
           "Blasphemous.ModdingAPI": "2.1.0",
           "Blasphemous.ModdingReferences": "4.0.67"
         },
         "compile": {
-          "lib/net35/UIFramework.dll": {
+          "lib/net35/LevelFramework.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net35/UIFramework.dll": {
+          "lib/net35/LevelFramework.dll": {
             "related": ".xml"
           }
         }
@@ -302,30 +284,17 @@
         "lib/net35/ItemFramework.xml"
       ]
     },
-    "Blasphemous.Framework.Menus/0.2.0": {
-      "sha512": "ZNLMXLfTtfwx44EU4B8t66XmETLl3aI7RynenbTnLPiio0Xho5/zcHklWGDWx/JrHdWo9W3FmjKVP8yCz5SeYQ==",
+    "Blasphemous.Framework.Levels/0.1.2": {
+      "sha512": "Qja36Yq+Z2q7IiZdqWB7ROnIupV8bnLrvLZpUh7Sohv2Fhm1ORdi9lnn4oHVEMkGOMsnCtPCvv2hwzTEnFXJ6Q==",
       "type": "package",
-      "path": "blasphemous.framework.menus/0.2.0",
+      "path": "blasphemous.framework.levels/0.1.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "blasphemous.framework.menus.0.2.0.nupkg.sha512",
-        "blasphemous.framework.menus.nuspec",
-        "lib/net35/MenuFramework.dll",
-        "lib/net35/MenuFramework.xml"
-      ]
-    },
-    "Blasphemous.Framework.UI/0.1.1": {
-      "sha512": "Yzy55tOGZktqrSddu0odglupru1VqvylNgt6Q6lYrdSchTxRrPGMgh49eTgYuz1KHjajdFbTclqk8LCBfDSLIA==",
-      "type": "package",
-      "path": "blasphemous.framework.ui/0.1.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "blasphemous.framework.ui.0.1.1.nupkg.sha512",
-        "blasphemous.framework.ui.nuspec",
-        "lib/net35/UIFramework.dll",
-        "lib/net35/UIFramework.xml"
+        "blasphemous.framework.levels.0.1.2.nupkg.sha512",
+        "blasphemous.framework.levels.nuspec",
+        "lib/net35/LevelFramework.dll",
+        "lib/net35/LevelFramework.xml"
       ]
     },
     "Blasphemous.ModdingAPI/2.1.2": {
@@ -624,7 +593,7 @@
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v3.5": [
       "Blasphemous.Framework.Items >= 0.1.0",
-      "Blasphemous.Framework.Menus >= 0.2.0",
+      "Blasphemous.Framework.Levels >= 0.1.2",
       "Blasphemous.ModdingAPI >= 2.1.2",
       "Blasphemous.ModdingReferences >= 4.0.67"
     ]
@@ -633,7 +602,7 @@
     "C:\\Users\\28090\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "0.1.0",
+    "version": "0.0.1",
     "restore": {
       "projectUniqueName": "C:\\Users\\28090\\Documents\\GitHub\\Blasphemous.ScreamingSinners\\Blasphemous.ScreamingSinners\\Blasphemous.ScreamingSinners.csproj",
       "projectName": "Blasphemous.ScreamingSinners",
@@ -677,9 +646,9 @@
             "target": "Package",
             "version": "[0.1.0, )"
           },
-          "Blasphemous.Framework.Menus": {
+          "Blasphemous.Framework.Levels": {
             "target": "Package",
-            "version": "[0.2.0, )"
+            "version": "[0.1.2, )"
           },
           "Blasphemous.ModdingAPI": {
             "target": "Package",

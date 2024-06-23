@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Blasphemous.ScreamingSinners</id>
+    <version>0.0.1</version>
+    <title>Screaming Sinners</title>
+    <authors>NewbieElton</authors>
+    <description>miscellaneous meme-improvements to Blasphemous 1</description>
+    <repository type="git" url="https://github.com/Example" commit="c48b5e2d46ab7cc91a80827b055450750d529790" />
+    <dependencies>
+      <group targetFramework=".NETFramework3.5">
+        <dependency id="Blasphemous.Framework.Items" version="0.1.0" exclude="Build,Analyzers" />
+        <dependency id="Blasphemous.Framework.Levels" version="0.1.2" exclude="Build,Analyzers" />
+        <dependency id="Blasphemous.ModdingAPI" version="2.1.2" exclude="Build,Analyzers" />
+        <dependency id="Blasphemous.ModdingReferences" version="4.0.67" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\28090\Documents\GitHub\Blasphemous.ScreamingSinners\Blasphemous.ScreamingSinners\bin\Debug\ScreamingSinners.dll" target="lib\net35\ScreamingSinners.dll" />
+  </files>
+</package>

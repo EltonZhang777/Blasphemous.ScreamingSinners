@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Users\\28090\\Documents\\GitHub\\Blasphemous.ScreamingSinners\\Blasphemous.ScreamingSinners\\Blasphemous.ScreamingSinners.csproj": {
-      "version": "0.1.0",
+      "version": "0.0.1",
       "restore": {
         "projectUniqueName": "C:\\Users\\28090\\Documents\\GitHub\\Blasphemous.ScreamingSinners\\Blasphemous.ScreamingSinners\\Blasphemous.ScreamingSinners.csproj",
         "projectName": "Blasphemous.ScreamingSinners",
@@ -49,9 +49,9 @@
               "target": "Package",
               "version": "[0.1.0, )"
             },
-            "Blasphemous.Framework.Menus": {
+            "Blasphemous.Framework.Levels": {
               "target": "Package",
-              "version": "[0.2.0, )"
+              "version": "[0.1.2, )"
             },
             "Blasphemous.ModdingAPI": {
               "target": "Package",

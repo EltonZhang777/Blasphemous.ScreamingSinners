@@ -1,0 +1,61 @@
+lang: en
+
+RB601.n: The Matter of Quivering
+RB601.d: increase the attack speed of up-attack by 50%. Each up attack gains 1 stack. \nAt over 30 stacks, gain unstoppable stance while performing up attacks. \nAt over 60 stacks, up-attacking does not gain fervour, but gain equal amount of health. \nStacks reset to 0 when performing any other attack.
+RB601.l: RB602_lore
+
+RB602.n: Intact Steps
+RB602.d: Gain a stack after each parry (max at 12 stacks), each stack provides 8% movement speed. \nAt over 6 stacks, gain 8 attack damage. \nAt 12 stacks, any Mea Culpa attack makes the enemy hit executable. \nReset stacks to 0 when you are hit. 
+RB602.l: RB602_lore
+
+RB603.n: Festered Left Hand
+RB603.d: Gain 1 stack after each attack hit, 3 stacks for each sword art hit, 2 stacks for a parry. (max 12 stacks) \nGain 8 attack damage when at 12 stacks. \nReset stack to 0 when being hit
+RB603.l: RB603_lore
+
+RB604.n: Calloused Sword Hand
+RB604.d: Gain 1 stack after each attack hit, 3 stacks for each sword art hit, 2 stacks for a parry. \nGain 15% attack speed and an extra 15% attack speed for up-attacks at over 12 stacks. \nReset stack to 0 when not gaining stacks for 5 seconds.
+RB604.l: RB604_lore
+
+RB605.n: Ouroborupert's Tear
+RB605.d: Increase 50% projectile damage (bleeding miracle, charged attack projectile, ruby blade projectile, or even some prayers?). \nEnter "Blessed" state initially. \nBeing lower than 20% health while in "blessed" state will increase projectile damage by 50% until death, turning you into "cursed" state. \nRestoring to full health while in "cursed" state will increase projectile damage by 50% until death, turning you into "blessed" state. \nCan infinitely stack
+RB605.l: RB605_lore
+
+RB606.n: Flail the Crimson World
+RB606.d: Reducing the casting time of blood sacrifice by 50%, while increasing its health cost by 100%. \nIf Blood Sacrificing makes TPO drop to under 20% HP, it will instantly fill the fervour bar to maximum. \nPerforming a Blood Sacrifice at maximum fervour will make the next 5 seconds not consume any fervour.
+RB606.l: RB606_lore
+
+RB607.n: Cauterize the Crimson Lights
+RB607.d: lose 1% max HP every second. \nWhen below 67% max HP, create a Crimson Mist cloud every 1 second, dealing 15 damage. \nWhen below 50% max HP, gain unstoppable stance. \nWhen below 33% max HP, Crimson Mist clouds spawn every 0.5 seconds, and they restore 50% of their damage as HP. \nWhen healed over 33% max HP, all effects still persist for 10 seconds.
+RB607.l: RB607_lore
+
+RB608.n: Paint the Crimson Shapes
+RB608.d: After drinking a flask, gain 10% movement speed (stackable) and generate a blood trail behind TPO. \nEach time the blood trail forms a closed shape, deal damage to all the enemies within. \nThe bigger the area of the shape, the greater the damage dealt; the more flasks consumed before getting hit, the greater the damage dealt. \nLoses all effects when hit. \nDrinking the last flask does not apply any buff, but instead keeps any present movement speed and blood trail buff active until death (won't lose any when hit).
+RB608.l: RB608_lore
+
+RB609.n: Aponia
+RB609.d: Reduce 75% attack damage, +3 attack fervour regen. \nIf current fervour is not enough to cast your current prayer, reduce 95% attack damage and +4.5 attack fervour regen instead.
+RB609.l: RB609_lore
+
+RB610.n: Ataraxia
+RB610.d: Gives the ability to cast prayers when TPO's in prayer cooldown/duration. The new duration will stack on top of current duration. \nFor each other prayer cast after the first prayer, lose -(n*(n+1)/3)% max HP each second until the end of prayer duration. 
+RB610.l: RB610_lore
+
+RB611.n: Shape of Dreams
+RB611.d: After drinking a flask, gain a shield that can negate one hit's damage and explode when hit, dealing 50 damage. \nHaving this shield while in-combat with enemies increase its damage by 10 each second (max 350 damage). \nWhen the shield reaches maximum damage (and every 10 seconds after it), deal 150 damage to all enemies in the screen.
+RB611.l: RB611_lore
+
+HE601.n: Reflections of the Dark Glaze
+HE601.d: TPO's able to negate the damage of a hit that would have killed him. \nAfter triggering this effect until death: \n    max HP fixed to current HP \n    +100% all damage dealt \n    -100% all damage resistances \n    unable to open inventory \n    the whole screen becomes darker
+HE601.l: HE601_lore
+
+HE602.n: Subsuming Forge
+HE602.d: When having more than 120 fervour for over 5 seconds, consume all fervour to gain +4 attack till death. Infinitely stackable. Only resets upon death
+HE602.l: HE602_lore
+
+RE601.n: Spread the Crimson Wings
+RE601.d: Holding [ACT: RANGED] after a mid-air ranged attack will keep TPO hovering in that position, while losing 5 HP per second.
+RE601.l: RE601_lore
+
+RE602.n: Nadir Rise
+RE602.d: crouching for over 2 seconds will charge your next jump (within the next 0.5 seconds of leaving the crouch) to jump higher when you hold [ACT:JUMP]. Maximum charge is obtained for crouching 3 more seconds after initiating the charge.
+RE602.l: RE602_lore
