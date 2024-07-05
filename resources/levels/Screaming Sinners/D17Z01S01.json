@@ -160,9 +160,27 @@
             "id": "ladder_001",
             "position": {
                 "x": -976,
-                "y": 41
+                "y": 29
             },
-            "condition": "flag:FIRST_DEATH"
+            "properties": ["top = 42.3", "bottom = 20"]
+        },
+        {
+            "type": "ladder-brotherhood",
+            "id": "ladder_002",
+            "position": {
+                "x": -973,
+                "y": 29
+            },
+            "properties": ["top = 42.3", "bottom = 30"]
+        },
+        {
+            "type": "ladder-brotherhood",
+            "id": "ladder_003",
+            "position": {
+                "x": -970,
+                "y": 29
+            },
+            "properties": ["top = 42.3", "bottom = 17"]
         }
     ]
 }

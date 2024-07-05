@@ -119,11 +119,11 @@ public class ScreamingSinners : BlasMod
         // ladders
         provider.RegisterObjectCreator("ladder-jondo", new ObjectCreator(
             new SceneLoader("D03Z02S02_DECO", "MIDDLEGROUND/AfterPlayer/Gameplay/Ladders/{0}"),
-            new LadderModifier()));
+            new LadderModifier(0.8f)));
         provider.RegisterObjectCreator("ladder-brotherhood", new ObjectCreator(
             new SceneLoader("D17Z01S04_DECO", "MIDDLEGROUND/AfterPlayer/Gameplay/Ladders/brotherhood-spritesheet_43"),
-            new LadderModifier(new Vector2(0.5f, 1.6f))));
-
+            new LadderModifier(1.6f)));
+        
         // droppable platforms
         provider.RegisterObjectCreator("platform-droppable-library", new ObjectCreator(
             new SceneLoader("D05Z01S01_DECO", "MIDDLEGROUND/AfterPlayer/Floor/library_spritesheet_34"),
@@ -132,7 +132,7 @@ public class ScreamingSinners : BlasMod
             new SceneLoader("D17Z01S04_DECO", "MIDDLEGROUND/AfterPlayer/Floor/brotherhood-spritesheet_41"),
             new DroppablePlatformModifier(new Vector2(2f, 1f), new Vector2(0f, -0.3f))));
 
-
+        
         // solid objects
         provider.RegisterObjectCreator("platform-solid-brotherhood", new ObjectCreator(
             new SceneLoader("D17Z01S04_DECO", "MIDDLEGROUND/AfterPlayer/Floor/brotherhood-spritesheet_0"),

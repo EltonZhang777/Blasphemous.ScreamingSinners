@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\28090\\Documents\\GitHub\\Blasphemous.ScreamingSinners\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1D2B5BE2-D032-4E23-825F-7422C97A195D}|Blasphemous.ScreamingSinners\\Blasphemous.ScreamingSinners.csproj|c:\\users\\28090\\documents\\github\\blasphemous.screamingsinners\\blasphemous.screamingsinners\\levels\\objectmodifiers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D2B5BE2-D032-4E23-825F-7422C97A195D}|Blasphemous.ScreamingSinners\\Blasphemous.ScreamingSinners.csproj|solutionrelative:blasphemous.screamingsinners\\levels\\objectmodifiers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1D2B5BE2-D032-4E23-825F-7422C97A195D}|Blasphemous.ScreamingSinners\\Blasphemous.ScreamingSinners.csproj|c:\\users\\28090\\documents\\github\\blasphemous.screamingsinners\\blasphemous.screamingsinners\\screamingsinners.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D2B5BE2-D032-4E23-825F-7422C97A195D}|Blasphemous.ScreamingSinners\\Blasphemous.ScreamingSinners.csproj|solutionrelative:blasphemous.screamingsinners\\screamingsinners.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D2B5BE2-D032-4E23-825F-7422C97A195D}|Blasphemous.ScreamingSinners\\Blasphemous.ScreamingSinners.csproj|c:\\users\\28090\\documents\\github\\blasphemous.screamingsinners\\blasphemous.screamingsinners\\levels\\modifiers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D2B5BE2-D032-4E23-825F-7422C97A195D}|Blasphemous.ScreamingSinners\\Blasphemous.ScreamingSinners.csproj|solutionrelative:blasphemous.screamingsinners\\levels\\modifiers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D2B5BE2-D032-4E23-825F-7422C97A195D}|Blasphemous.ScreamingSinners\\Blasphemous.ScreamingSinners.csproj|c:\\users\\28090\\documents\\github\\blasphemous.screamingsinners\\blasphemous.screamingsinners\\levels\\levelflaghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D2B5BE2-D032-4E23-825F-7422C97A195D}|Blasphemous.ScreamingSinners\\Blasphemous.ScreamingSinners.csproj|solutionrelative:blasphemous.screamingsinners\\levels\\levelflaghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1D2B5BE2-D032-4E23-825F-7422C97A195D}|Blasphemous.ScreamingSinners\\Blasphemous.ScreamingSinners.csproj|c:\\users\\28090\\documents\\github\\blasphemous.screamingsinners\\blasphemous.screamingsinners\\levels\\spikehitboxfix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,56 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "SpikeHitboxFix.cs",
               "DocumentMoniker": "C:\\Users\\28090\\Documents\\GitHub\\Blasphemous.ScreamingSinners\\Blasphemous.ScreamingSinners\\Levels\\SpikeHitboxFix.cs",
               "RelativeDocumentMoniker": "Blasphemous.ScreamingSinners\\Levels\\SpikeHitboxFix.cs",
               "ToolTip": "C:\\Users\\28090\\Documents\\GitHub\\Blasphemous.ScreamingSinners\\Blasphemous.ScreamingSinners\\Levels\\SpikeHitboxFix.cs",
               "RelativeToolTip": "Blasphemous.ScreamingSinners\\Levels\\SpikeHitboxFix.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAwA8AAAAmAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAAgwD4AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-05T02:41:08.644Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LevelFlagHandler.cs",
-              "DocumentMoniker": "C:\\Users\\28090\\Documents\\GitHub\\Blasphemous.ScreamingSinners\\Blasphemous.ScreamingSinners\\Levels\\LevelFlagHandler.cs",
-              "RelativeDocumentMoniker": "Blasphemous.ScreamingSinners\\Levels\\LevelFlagHandler.cs",
-              "ToolTip": "C:\\Users\\28090\\Documents\\GitHub\\Blasphemous.ScreamingSinners\\Blasphemous.ScreamingSinners\\Levels\\LevelFlagHandler.cs",
-              "RelativeToolTip": "Blasphemous.ScreamingSinners\\Levels\\LevelFlagHandler.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T09:13:48.289Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Modifiers.cs",
-              "DocumentMoniker": "C:\\Users\\28090\\Documents\\GitHub\\Blasphemous.ScreamingSinners\\Blasphemous.ScreamingSinners\\Levels\\Modifiers.cs",
-              "RelativeDocumentMoniker": "Blasphemous.ScreamingSinners\\Levels\\Modifiers.cs",
-              "ToolTip": "C:\\Users\\28090\\Documents\\GitHub\\Blasphemous.ScreamingSinners\\Blasphemous.ScreamingSinners\\Levels\\Modifiers.cs",
-              "RelativeToolTip": "Blasphemous.ScreamingSinners\\Levels\\Modifiers.cs",
-              "ViewState": "AQIAAFMAAAAAAAAAAADwv4EAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "ObjectModifiers.cs",
+              "DocumentMoniker": "C:\\Users\\28090\\Documents\\GitHub\\Blasphemous.ScreamingSinners\\Blasphemous.ScreamingSinners\\Levels\\ObjectModifiers.cs",
+              "RelativeDocumentMoniker": "Blasphemous.ScreamingSinners\\Levels\\ObjectModifiers.cs",
+              "ToolTip": "C:\\Users\\28090\\Documents\\GitHub\\Blasphemous.ScreamingSinners\\Blasphemous.ScreamingSinners\\Levels\\ObjectModifiers.cs",
+              "RelativeToolTip": "Blasphemous.ScreamingSinners\\Levels\\ObjectModifiers.cs",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAcwIgAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-25T09:19:36.655Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ScreamingSinners.cs",
               "DocumentMoniker": "C:\\Users\\28090\\Documents\\GitHub\\Blasphemous.ScreamingSinners\\Blasphemous.ScreamingSinners\\ScreamingSinners.cs",
               "RelativeDocumentMoniker": "Blasphemous.ScreamingSinners\\ScreamingSinners.cs",
               "ToolTip": "C:\\Users\\28090\\Documents\\GitHub\\Blasphemous.ScreamingSinners\\Blasphemous.ScreamingSinners\\ScreamingSinners.cs",
               "RelativeToolTip": "Blasphemous.ScreamingSinners\\ScreamingSinners.cs",
-              "ViewState": "AQIAAHUAAAAAAAAAAAAAAIEAAABaAAAA",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAAAH0AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-17T08:22:51.411Z",
               "EditorCaption": ""

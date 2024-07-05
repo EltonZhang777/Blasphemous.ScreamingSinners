@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("miscellaneous meme-improvements to Blasphemous 1")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("0.0.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.0.1+c48b5e2d46ab7cc91a80827b055450750d529790")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.0.1+198ff745610cb1860df469cc38ee6a1414e27072")]
 [assembly: System.Reflection.AssemblyProductAttribute("Screaming Sinners")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Blasphemous.ScreamingSinners")]
 [assembly: System.Reflection.AssemblyVersionAttribute("0.0.1.0")]

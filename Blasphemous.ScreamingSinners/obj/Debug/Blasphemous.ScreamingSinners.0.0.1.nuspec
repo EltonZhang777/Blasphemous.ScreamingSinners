@@ -6,12 +6,12 @@
     <title>Screaming Sinners</title>
     <authors>NewbieElton</authors>
     <description>miscellaneous meme-improvements to Blasphemous 1</description>
-    <repository type="git" url="https://github.com/Example" commit="c48b5e2d46ab7cc91a80827b055450750d529790" />
+    <repository type="git" url="https://github.com/Example" commit="198ff745610cb1860df469cc38ee6a1414e27072" />
     <dependencies>
       <group targetFramework=".NETFramework3.5">
         <dependency id="Blasphemous.Framework.Items" version="0.1.0" exclude="Build,Analyzers" />
-        <dependency id="Blasphemous.Framework.Levels" version="0.1.2" exclude="Build,Analyzers" />
-        <dependency id="Blasphemous.ModdingAPI" version="2.1.2" exclude="Build,Analyzers" />
+        <dependency id="Blasphemous.Framework.Levels" version="0.1.3" exclude="Build,Analyzers" />
+        <dependency id="Blasphemous.ModdingAPI" version="2.2.0" exclude="Build,Analyzers" />
         <dependency id="Blasphemous.ModdingReferences" version="4.0.67" exclude="Build,Analyzers" />
       </group>
     </dependencies>

@@ -38,7 +38,19 @@ class Penitent_SpikeDetection_Patch
         holder.AddComponent<CheckTrapDerived>();
     }
 }
+/// <summary>
+/// Component added to the player instead of the original that calls special method
+/// </summary>
+public class CheckTrapDerived : CheckTrap
+{
+    private void OnTriggerExit2D(Collider2D other)
+    {
+    }
+}
 
+// WIP, still have bugs
+
+/*
 // re-size the spike hitbox to the same size of damage hitbox when crouching
 [HarmonyPatch(typeof(PenitentDamageArea), "SetBottomSmallDamageArea")]
 class PenitentDamageArea_CrouchSpikeDetection_Patch
@@ -96,12 +108,5 @@ class PenitentDamageArea_ResetSpikeDetection_Patch
     }
 }
 
-/// <summary>
-/// Component added to the player instead of the original that calls special method
-/// </summary>
-public class CheckTrapDerived : CheckTrap
-{
-    private void OnTriggerExit2D(Collider2D other)
-    {
-    }
-}
+
+*/
