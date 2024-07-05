@@ -1,10 +1,10 @@
 {
     "additions": [
         {
-            "type": "spikes-jondo-long",
+            "type": "spikes-brotherhood",
             "id": "spike_001",
             "position": {
-                "x": -986,
+                "x": -987.1,
                 "y": 23.5
             },
             "rotation": {
@@ -13,10 +13,10 @@
             
         },
         {
-            "type": "spikes-jondo-long",
-            "id": "spike_001_copy",
+            "type": "spikes-brotherhood",
+            "id": "spike_001_copy_1",
             "position": {
-                "x": -990,
+                "x": -985.3,
                 "y": 23.5
             },
             "rotation": {
@@ -25,33 +25,142 @@
             
         },
         {
-            "type": "spikes-jondo-long",
+            "type": "spikes-brotherhood",
+            "id": "spike_001_copy_2",
+            "position": {
+                "x": -990.7,
+                "y": 23.5
+            },
+            "rotation": {
+                "z": 180
+            }
+            
+        },
+        {
+            "type": "spikes-brotherhood",
+            "id": "spike_001_copy_3",
+            "position": {
+                "x": -988.9,
+                "y": 23.5
+            },
+            "rotation": {
+                "z": 180
+            }
+            
+        },
+        {
+            "type": "spikes-brotherhood",
             "id": "spike_002",
             "position": {
                 "x": -986,
-                "y": 22
+                "y": 22.9
             },
             "rotation": {
                 "z": 90
             }
         },
         {
-            "type": "spikes-jondo-long",
+            "type": "spikes-brotherhood",
+            "id": "spike_002_copy",
+            "position": {
+                "x": -986,
+                "y": 21.1
+            },
+            "rotation": {
+                "z": 90
+            }
+        },
+        {
+            "type": "spikes-brotherhood",
             "id": "spike_003",
             "position": {
                 "x": -990,
-                "y": 22
+                "y": 22.9
             },
             "rotation": {
                 "z": -90
             }
         },
         {
-            "type": "platform-droppable-library",
-            "id": "p_d_001",
+            "type": "spikes-brotherhood",
+            "id": "spike_003_copy",
+            "position": {
+                "x": -990,
+                "y": 21.1
+            },
+            "rotation": {
+                "z": -90
+            }
+        },
+        {
+            "type": "platform-solid-brotherhood",
+            "id": "platform_solid_001",
             "position": {
                 "x": -988,
                 "y": 42
+            },
+            "condition": "flag:FIRST_DEATH"
+        },
+        {
+            "type": "platform-solid-brotherhood",
+            "id": "platform_solid_001_copy_1",
+            "position": {
+                "x": -986,
+                "y": 42
+            },
+            "condition": "flag:FIRST_DEATH"
+        },
+        {
+            "type": "platform-solid-brotherhood",
+            "id": "platform_solid_001",
+            "position": {
+                "x": -984,
+                "y": 42
+            },
+            "condition": "flag:FIRST_DEATH"
+        },
+        {
+            "type": "platform-solid-brotherhood",
+            "id": "platform_solid_001",
+            "position": {
+                "x": -982,
+                "y": 42
+            },
+            "condition": "flag:FIRST_DEATH"
+        },
+        {
+            "type": "platform-solid-brotherhood",
+            "id": "platform_solid_001",
+            "position": {
+                "x": -980,
+                "y": 42
+            },
+            "condition": "flag:FIRST_DEATH"
+        },
+        {
+            "type": "platform-solid-brotherhood",
+            "id": "platform_solid_001",
+            "position": {
+                "x": -978,
+                "y": 42
+            },
+            "condition": "flag:FIRST_DEATH"
+        },
+        {
+            "type": "platform-droppable-brotherhood",
+            "id": "platform_droppable_001",
+            "position": {
+                "x": -976,
+                "y": 42
+            },
+            "condition": "flag:FIRST_DEATH"
+        },
+        {
+            "type": "ladder-brotherhood",
+            "id": "ladder_001",
+            "position": {
+                "x": -976,
+                "y": 41
             },
             "condition": "flag:FIRST_DEATH"
         }

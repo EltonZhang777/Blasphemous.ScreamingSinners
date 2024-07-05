@@ -41,6 +41,7 @@ public class SolidObjectModifier : IModifier
 
         var collider = obj.AddComponent<BoxCollider2D>();
         collider.size = _size;
+        collider.offset = _offset;
     }
 }
 
@@ -114,6 +115,14 @@ public class LadderModifier : IModifier
     public LadderModifier()
     {
         _colliderSize = new Vector2(0.5f, 0.8f);
+    }
+
+    /// <summary>
+    /// Construct a ladder with custom hitbox size
+    /// </summary>
+    public LadderModifier(Vector2 size)
+    {
+        _colliderSize = size;
     }
 }
 

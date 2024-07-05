@@ -111,16 +111,33 @@ public class ScreamingSinners : BlasMod
             new SceneLoader("D23Z01S05_DECO", "MIDDLEGROUND/AfterPlayer/Spikes/{0}"),
             new SpikeModifier()));
 
-        // ladder
+        // other traps
+        provider.RegisterObjectCreator("bell-face", new ObjectCreator(
+            new SceneLoader("D03Z02S06_LOGIC", "TRAPS/TRAP_SHOCK_ENEMY"),
+            new NoModifier("Face bell")));
+
+        // ladders
         provider.RegisterObjectCreator("ladder-jondo", new ObjectCreator(
             new SceneLoader("D03Z02S02_DECO", "MIDDLEGROUND/AfterPlayer/Gameplay/Ladders/{0}"),
             new LadderModifier()));
+        provider.RegisterObjectCreator("ladder-brotherhood", new ObjectCreator(
+            new SceneLoader("D17Z01S04_DECO", "MIDDLEGROUND/AfterPlayer/Gameplay/Ladders/brotherhood-spritesheet_43"),
+            new LadderModifier(new Vector2(0.5f, 1.6f))));
 
-        // terrain
-
+        // droppable platforms
         provider.RegisterObjectCreator("platform-droppable-library", new ObjectCreator(
             new SceneLoader("D05Z01S01_DECO", "MIDDLEGROUND/AfterPlayer/Floor/library_spritesheet_34"),
             new DroppablePlatformModifier(new Vector2(2f, 1f), new Vector2(0f, -0.3f)))) ;
+        provider.RegisterObjectCreator("platform-droppable-brotherhood", new ObjectCreator(
+            new SceneLoader("D17Z01S04_DECO", "MIDDLEGROUND/AfterPlayer/Floor/brotherhood-spritesheet_41"),
+            new DroppablePlatformModifier(new Vector2(2f, 1f), new Vector2(0f, -0.3f))));
+
+
+        // solid objects
+        provider.RegisterObjectCreator("platform-solid-brotherhood", new ObjectCreator(
+            new SceneLoader("D17Z01S04_DECO", "MIDDLEGROUND/AfterPlayer/Floor/brotherhood-spritesheet_0"),
+            new SolidObjectModifier(new Vector2(2f, 1f), new Vector2(0f, -0.3f))));
+        
     }
 
 }
