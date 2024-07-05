@@ -1,12 +1,59 @@
 {
     "additions": [
         {
-            "type": "spikes",
+            "type": "spikes-jondo-long",
             "id": "spike_001",
             "position": {
-                "x": -980.5,
-                "y": 17.5
+                "x": -986,
+                "y": 23.5
+            },
+            "rotation": {
+                "z": 180
             }
+            
+        },
+        {
+            "type": "spikes-jondo-long",
+            "id": "spike_001_copy",
+            "position": {
+                "x": -990,
+                "y": 23.5
+            },
+            "rotation": {
+                "z": 180
+            }
+            
+        },
+        {
+            "type": "spikes-jondo-long",
+            "id": "spike_002",
+            "position": {
+                "x": -986,
+                "y": 22
+            },
+            "rotation": {
+                "z": 90
+            }
+        },
+        {
+            "type": "spikes-jondo-long",
+            "id": "spike_003",
+            "position": {
+                "x": -990,
+                "y": 22
+            },
+            "rotation": {
+                "z": -90
+            }
+        },
+        {
+            "type": "platform-droppable-library",
+            "id": "p_d_001",
+            "position": {
+                "x": -988,
+                "y": 42
+            },
+            "condition": "flag:FIRST_DEATH"
         }
     ]
 }

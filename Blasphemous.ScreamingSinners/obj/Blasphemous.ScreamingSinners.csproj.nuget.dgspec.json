@@ -51,11 +51,11 @@
             },
             "Blasphemous.Framework.Levels": {
               "target": "Package",
-              "version": "[0.1.2, )"
+              "version": "[0.1.3, )"
             },
             "Blasphemous.ModdingAPI": {
               "target": "Package",
-              "version": "[2.1.2, )"
+              "version": "[2.2.0, )"
             },
             "Blasphemous.ModdingReferences": {
               "target": "Package",

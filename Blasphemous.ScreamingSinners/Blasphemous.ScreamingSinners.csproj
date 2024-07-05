@@ -19,8 +19,8 @@
 
   <ItemGroup>
     <PackageReference Include="Blasphemous.Framework.Items" Version="0.1.0" />
-    <PackageReference Include="Blasphemous.Framework.Levels" Version="0.1.2" />
-    <PackageReference Include="Blasphemous.ModdingAPI" Version="2.1.2" />
+    <PackageReference Include="Blasphemous.Framework.Levels" Version="0.1.3" />
+    <PackageReference Include="Blasphemous.ModdingAPI" Version="2.2.0" />
     <PackageReference Include="Blasphemous.ModdingReferences" Version="4.0.67" />
   </ItemGroup>
 

@@ -11,9 +11,8 @@ using Blasphemous.Framework.Items;
 using Blasphemous.Framework.Levels;
 using Blasphemous.Framework.Levels.Loaders;
 using Blasphemous.Framework.Levels.Modifiers;
-using UnityEngine.Windows.Speech;
-using System;
 using Blasphemous.ScreamingSinners.Beads;
+using Framework.Managers;
 
 
 
@@ -33,6 +32,8 @@ public class ScreamingSinners : BlasMod
     internal ItemHandler ItemHandler { get; } = new();
     internal Blasphemous.ScreamingSinners.Events.EventHandler EventHandler { get; } = new();
     internal TimeHandler TimeHandler { get; } = new();
+
+    internal LevelFlagHandler LevelFlagHandler { get; } = new();
 
     // initialize special item effects
     internal RB602_Effect _RB602_Effect {  get; private set; }
@@ -56,6 +57,12 @@ public class ScreamingSinners : BlasMod
     {
     }
 
+    protected override void OnAllInitialized()
+    {
+        base.OnAllInitialized();
+        Main.ScreamingSinners.EventHandler.OnPlayerKilled += LevelFlagHandler.OnFirstDeath;
+    }
+
 
     /// <summary>
     /// Register all custom things
@@ -77,14 +84,43 @@ public class ScreamingSinners : BlasMod
 
 
         // Level edits
-        /*
-        provider.RegisterObjectCreator("patio-column", new ObjectCreator(
-            new SceneLoader("D04Z01S01_DECO", "MIDDLEGROUND/AfterPlayer/Arcs/garden-spritesheet_31 (3)"),
-            new NoModifier("Column")));
-        */
-        provider.RegisterObjectCreator("spikes-patio", new ObjectCreator(
-            new SceneLoader("D04Z01S01_DECO", "MIDDLEGROUND/AfterPlayer/Spikes/{0}"),
+        
+        // spikes
+        provider.RegisterObjectCreator("spikes-jondo-tiny", new ObjectCreator(
+            new SceneLoader("D03Z02S02_DECO", "MIDDLEGROUND/AfterPlayer/Gameplay/Spikes/inverted-bell-spritesheet_56"),
+            new SpikeModifier(new Vector2(0.9f, 0.8f))));
+        provider.RegisterObjectCreator("spikes-jondo", new ObjectCreator(
+            new SceneLoader("D03Z02S03_DECO", "MIDDLEGROUND/AfterPlayer/Spikes/inverted-bell-spritesheet_23"),
             new SpikeModifier()));
+        provider.RegisterObjectCreator("spikes-jondo-long", new ObjectCreator(
+            new SceneLoader("D03Z02S03_DECO", "MIDDLEGROUND/AfterPlayer/Spikes/inverted-bell-spritesheet_25"),
+            new SpikeModifier(new Vector2(4f, 0.8f))));
+        provider.RegisterObjectCreator("spikes-patio", new ObjectCreator(
+            new SceneLoader("D04Z01S02_DECO", "MIDDLEGROUND/AfterPlayer/Gameplay/Spikes/{0}"),
+            new SpikeModifier(new Vector2(2.6f, 0.8f))));
+        provider.RegisterObjectCreator("spikes-canvases", new ObjectCreator(
+            new SceneLoader("D05Z02S01_DECO", "MIDDLEGROUND/AfterPlayer/Gameplay/Spikes/{0}"),
+            new SpikeModifier(new Vector2(3f, 0.8f))));
+        provider.RegisterObjectCreator("spikes-rooftops", new ObjectCreator(
+            new SceneLoader("D06Z01S04_DECO", "MIDDLEGROUND/AfterPlayer/Gameplay/Spikes/{0}"),
+            new SpikeModifier()));
+        provider.RegisterObjectCreator("spikes-brotherhood", new ObjectCreator(
+            new SceneLoader("D17BZ02S01_DECO", "MIDDLEGROUND (1)/AfterPlayer/Spikes/{0}"),
+            new SpikeModifier()));
+        provider.RegisterObjectCreator("spikes-miriam", new ObjectCreator(
+            new SceneLoader("D23Z01S05_DECO", "MIDDLEGROUND/AfterPlayer/Spikes/{0}"),
+            new SpikeModifier()));
+
+        // ladder
+        provider.RegisterObjectCreator("ladder-jondo", new ObjectCreator(
+            new SceneLoader("D03Z02S02_DECO", "MIDDLEGROUND/AfterPlayer/Gameplay/Ladders/{0}"),
+            new LadderModifier()));
+
+        // terrain
+
+        provider.RegisterObjectCreator("platform-droppable-library", new ObjectCreator(
+            new SceneLoader("D05Z01S01_DECO", "MIDDLEGROUND/AfterPlayer/Floor/library_spritesheet_34"),
+            new DroppablePlatformModifier(new Vector2(2f, 1f), new Vector2(0f, -0.3f)))) ;
     }
 
 }

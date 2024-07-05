@@ -44,7 +44,7 @@
           }
         }
       },
-      "Blasphemous.Framework.Levels/0.1.2": {
+      "Blasphemous.Framework.Levels/0.1.3": {
         "type": "package",
         "dependencies": {
           "Blasphemous.ModdingAPI": "2.1.0",
@@ -61,7 +61,7 @@
           }
         }
       },
-      "Blasphemous.ModdingAPI/2.1.2": {
+      "Blasphemous.ModdingAPI/2.2.0": {
         "type": "package",
         "dependencies": {
           "BepInEx.Core": "5.4.21",
@@ -284,27 +284,27 @@
         "lib/net35/ItemFramework.xml"
       ]
     },
-    "Blasphemous.Framework.Levels/0.1.2": {
-      "sha512": "Qja36Yq+Z2q7IiZdqWB7ROnIupV8bnLrvLZpUh7Sohv2Fhm1ORdi9lnn4oHVEMkGOMsnCtPCvv2hwzTEnFXJ6Q==",
+    "Blasphemous.Framework.Levels/0.1.3": {
+      "sha512": "7VbjPJmIzib2B2PgKGuUGJDcPhUFMe5Tn/RkUwhu1g6//xEhsnz6frZfd+0Ve9b3+Bq1yQUZsur+q2uAGhsUyQ==",
       "type": "package",
-      "path": "blasphemous.framework.levels/0.1.2",
+      "path": "blasphemous.framework.levels/0.1.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "blasphemous.framework.levels.0.1.2.nupkg.sha512",
+        "blasphemous.framework.levels.0.1.3.nupkg.sha512",
         "blasphemous.framework.levels.nuspec",
         "lib/net35/LevelFramework.dll",
         "lib/net35/LevelFramework.xml"
       ]
     },
-    "Blasphemous.ModdingAPI/2.1.2": {
-      "sha512": "NycyZ5YUwyMi80SipgPSGo160SLewGewFVtQvWjkjA+lFnsagSIvzZrYUd0eNmI5rHxSJAAFn4x9FYLqTqcLSA==",
+    "Blasphemous.ModdingAPI/2.2.0": {
+      "sha512": "wNXpG8mTb+9wicPhBpMZTGXYwddz/KI6Eh2JmXNRxIJmVZxWueBJahEv/3fLGfSwl+7ZmIpwKIh9T5g9PnhqHg==",
       "type": "package",
-      "path": "blasphemous.moddingapi/2.1.2",
+      "path": "blasphemous.moddingapi/2.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "blasphemous.moddingapi.2.1.2.nupkg.sha512",
+        "blasphemous.moddingapi.2.2.0.nupkg.sha512",
         "blasphemous.moddingapi.nuspec",
         "lib/net35/ModdingAPI.dll",
         "lib/net35/ModdingAPI.xml"
@@ -593,8 +593,8 @@
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v3.5": [
       "Blasphemous.Framework.Items >= 0.1.0",
-      "Blasphemous.Framework.Levels >= 0.1.2",
-      "Blasphemous.ModdingAPI >= 2.1.2",
+      "Blasphemous.Framework.Levels >= 0.1.3",
+      "Blasphemous.ModdingAPI >= 2.2.0",
       "Blasphemous.ModdingReferences >= 4.0.67"
     ]
   },
@@ -648,11 +648,11 @@
           },
           "Blasphemous.Framework.Levels": {
             "target": "Package",
-            "version": "[0.1.2, )"
+            "version": "[0.1.3, )"
           },
           "Blasphemous.ModdingAPI": {
             "target": "Package",
-            "version": "[2.1.2, )"
+            "version": "[2.2.0, )"
           },
           "Blasphemous.ModdingReferences": {
             "target": "Package",

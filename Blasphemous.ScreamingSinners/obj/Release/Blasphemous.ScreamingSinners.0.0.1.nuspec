@@ -6,7 +6,7 @@
     <title>Screaming Sinners</title>
     <authors>NewbieElton</authors>
     <description>miscellaneous meme-improvements to Blasphemous 1</description>
-    <repository type="git" url="https://github.com/Example" commit="c48b5e2d46ab7cc91a80827b055450750d529790" />
+    <repository type="git" url="https://github.com/Example" commit="bc655bc27f3ca54494e9c28c8c4c707aa743d4cb" />
     <dependencies>
       <group targetFramework=".NETFramework3.5">
         <dependency id="Blasphemous.Framework.Items" version="0.1.0" exclude="Build,Analyzers" />
