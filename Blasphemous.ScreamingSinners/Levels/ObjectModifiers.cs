@@ -97,12 +97,12 @@ public class DroppablePlatformModifier : IModifier
 /// </summary>
 public class LadderModifier : IModifier
 {
-    private Vector2 _colliderSize;
     private float _segmentLength;
 
     /// <summary>
     /// Destroys original SpriteRender, 
-    /// then creates a series of SpriteRenderers for each segment of the ladder
+    /// then creates a series of SpriteRenderers for each segment of the ladder, 
+    /// before creating the one actual hitbox
     /// </summary>
     public void Apply(GameObject obj, ObjectData data)
     {
@@ -112,13 +112,15 @@ public class LadderModifier : IModifier
         if (data.properties.Length < 2)
         {
             Main.ScreamingSinners.LogError($"Ladder {data.id} top and/or bottom position not specified!\n" +
-                $"Skipped registering ladder hitbox!");
+                $"Skipped registering ladder object!");
+            UnityEngine.Object.Destroy(obj);
             return;
         }
 
         // unzip the string of top and bottom to floats
         float top;
         float bottom;
+        // top and bottom must be the first 2 arguments in `properties`
         if (data.properties[0].StartsWith("top") && data.properties[1].StartsWith("bottom"))
         {
             top = float.Parse(data.properties[0].Substring(data.properties[0].IndexOf('=') + 1));
@@ -133,28 +135,29 @@ public class LadderModifier : IModifier
         {
             Main.ScreamingSinners.LogError($"Ladder {data.id} top and/or bottom position " +
                 $"not specified in the first two property arguments!\n" +
-                $"Skipped registering ladder hitbox!");
+                $"Skipped registering ladder object!");
+            UnityEngine.Object.Destroy(obj);
             return;
         }
 
         // calculate the integer number of ladder segments based on tile length
         // use floor rounding to fix the bottom position to integer segment length
-        int numSegments = (int)Math.Floor((top - bottom) / _segmentLength);
-        bottom = top - numSegments * _segmentLength;
+        int numSegments = (int)Mathf.Floor((top - bottom) / _segmentLength);
+        bottom = top - (numSegments * _segmentLength);
         Main.ScreamingSinners.Log($"ladder id: {data.id}, " +
             $"top: {top}, bottom: {bottom}, numSegments = {numSegments}");
         if (numSegments <= 0)
         {
             Main.ScreamingSinners.LogError($"Ladder {data.id} top and bottom position " +
                 $"specified is shorter than 1 segment!\n" +
-                $"Skipped registering ladder hitbox!");
+                $"Skipped registering ladder object!");
+            UnityEngine.Object.Destroy(obj);
             return;
         }
 
-        // create children `GameObject`s with this as the parent `GameObject`
+        // create `GameObject`s of each segment
         // and adjust each segment's position
         SpriteRenderer sprite = obj.GetComponent<SpriteRenderer>();
-        List<GameObject> segments = new List<GameObject>();
         for (int i = 0; i < numSegments; i++)
         {
             GameObject newObject = UnityEngine.Object.Instantiate(
@@ -166,7 +169,6 @@ public class LadderModifier : IModifier
                 0f);
             newObject.name = $"{data.id}_LadderSegment_{i}";
             newObject.layer = LayerMask.NameToLayer("Default");
-            //segments.Add(newObject);
         }
         UnityEngine.Object.Destroy(sprite); // destroy the original sprite
 
@@ -184,12 +186,11 @@ public class LadderModifier : IModifier
 
 
     /// <summary>
-    /// Construct a ladder with custom single segment length
+    /// Construct a ladder with custom single segment y-length
     /// </summary>
     public LadderModifier(float segmentLength)
     {
         _segmentLength = segmentLength;
-        _colliderSize = new Vector2(0.5f, segmentLength);
     }
 }
 
